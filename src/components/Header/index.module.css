@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    height: 80px;
+    height: 4em;
 }
 .caixaHeader{
     display: flex;
@@ -53,7 +53,7 @@
     background-color: var(--second-base-color);
     color: white;
     border-radius: 20px ;
-    padding: 10px;
+    padding: 10px 13px;
     transition: transform 0.2s;
 }
 .menuLinkDiferente:hover{
