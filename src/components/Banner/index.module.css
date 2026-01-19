@@ -1,0 +1,110 @@
+.Banner{
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 50px 30px;
+}
+
+.BannerTexto{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    gap: 40px;
+    justify-content: center;
+}
+.textoTopo{
+    padding: 15px;
+    background-color: white;
+    color: var(--second-base-color);
+    font-weight: 700;
+    width:max-content;
+    display: flex;
+    font-size: 14px;
+    height: 15px;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 0 rgb(151, 148, 148);
+
+}
+.estrela{
+    color: var(--second-base-color);
+}
+.textoDestaque{
+    font-size: 3.4em;
+    line-height: 55px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+.textoDestaque span{
+    color: var(--second-base-color);
+}
+.texto{
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+.caixaButton{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: left;
+}
+.button{
+    padding: 30px 33px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    border: 1px gray solid;
+    height: 50px;
+}
+.buttonAgendar{
+    background-color: black;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.buttonAgendar:hover{
+    box-shadow: 0 5px 10px rgb(202, 197, 197);
+    transition: transform 0.2s, box-shadow 0.2s;
+    transform: translateY(-5px);
+}
+.buttonTelefone:hover{
+    box-shadow: 0 5px 10px rgb(202, 197, 197);
+    transition: transform 0.2s, box-shadow 0.2s;
+    transform: translateY(-5px);
+}
+.CiCalendar{
+    font-size: 25px;
+}
+.BsTelephone{
+    font-size: 19px;
+}
+.caixaTextoCheck{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.textoCheck{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    color: rgb(92, 91, 91);
+}
+.CiCircleCheck{
+    color: rgb(17, 172, 17);
+    font-size: 18px;
+}
