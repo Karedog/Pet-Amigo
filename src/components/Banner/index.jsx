@@ -4,7 +4,7 @@ import { CiCalendar } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
 import { CiCircleCheck } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
-import cachorro from "@/../public/cachorro.avif"
+import cachorro from "@/../public/cachorro.jpeg"
 import Image from "next/image";
 
 export default function Banner(){
@@ -24,13 +24,13 @@ export default function Banner(){
                         <p className={estilo.textoCheck}><CiCircleCheck className={estilo.CiCircleCheck}/> Ambiente Monitorado</p>
                     </div>
                 </div>
-                <div className={estilo.BannerImagem}>
-                    <Image src={cachorro}/>
-                    <div>
-                        <FaHeart/>
+                <div className={estilo.BannerImagemCaixa}>
+                    <Image className={estilo.BannerImagem} src={cachorro} width={1300} height={1000}/>
+                    <div className={estilo.caixaPulaPula}>
+                        <FaHeart className={estilo.FaHeart}/>
                         <div>
-                            <p>Clientes Felizes</p>
-                            <p>+1.500 pets atendidos</p>
+                            <p className={estilo.BannerImagemTextoSpan}>Clientes Felizes</p>
+                            <p className={estilo.BannerImagemTexto}>+1.500 pets atendidos</p>
                         </div>
                     </div>
                 </div>

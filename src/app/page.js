@@ -6,9 +6,11 @@ import Servicos from "@/components/Servicos";
 export default function Home() {
   return (
     <div className={styles.page}>
+      <div className={styles.caixaMenor}>
       <Header/>
       <Banner/>
       <Servicos/>
+      </div>
     </div>
   );
 }
